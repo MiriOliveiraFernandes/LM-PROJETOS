@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+:root{
+    --text-color: purple;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+  
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: black;*/
+    width: 100%;
+  
+}
+
+.logo{
+ display: flex;
+ font-size: 30px;
+ font-weight: 100px;
+ 
+}
+
+.logo h1{
+    padding-top: 20px;
+}
+
+.cor1{
+    display:flex;
+    background-color: aqua;
+    width: 100%;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size:40px;
+    font-weight: 400;
+}
+
+.cor2{
+    display: flex;
+    background-color: rgb(124, 255, 185);
+    width: 65%;
+    padding: 44px ;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 200;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.cor2 a{
+    text-decoration: none;
+}
+.cor3{
+    display: inline;
+    width: 10%;
+
+   align-items: center;
+   font-size: 20px;
+   font-weight: 100;
+}
+
+.cor3 i{
+    font-size: 50px;
+}
+
+
+#tranparencia{
+   opacity: 0.7;
+}
+
+.lateral{
+    
+    background-color: var(--text-color);
+    /*background-color:var(--text-color);*/
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 150%;
+}
+
+.lateral img{
+    display: flex;
+    width: 85px;
+   margin: 100px 20%;
+   opacity: 1;
+   /*margin-top: 100px;
+   margin-bottom: 100px;*/
+}
+/* lateral*/
+#grid-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 110%;
+    background-color: black;
+
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: auto auto;
+   text-align: start;
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 150%;
+}
+
+.box{
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px yellow ;
+    transition: all ease .55s;
+    width: 20%;
+    margin-left: 110px;
+}
+.box img{
+    display: flex;
+    width: 150px;
+    margin: 0px 75px;
+    height:auto ;
+}
+
+.box:hover{
+    transform: translateY(-5px) scale(1.1);
+    
+}

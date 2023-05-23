@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin:20px ;
+    font-family: Josefin Sans;
+}
+:root{
+   --fundo-color: pink; 
+}
+header{
+
+    background-color: var(--fundo-color);
+   
+}
+
+.logo{
+    background-color: var(--fundo-color);
+    padding-top: 10px;
+}
+.logo img{
+    width: 100px;
+
+}
+.box{
+    background-color: var(--second-color);
+    padding: 25px 40px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #8700BD ;
+    transition: all ease .55s;
+    
+}
+.content{
+    background-color: #000000;
+}
