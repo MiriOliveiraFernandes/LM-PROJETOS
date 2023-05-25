@@ -7,10 +7,15 @@
 
 :root{
     --text-color: purple;
+    --backgroud-color1 :
 }
 
+
 body{
-    background-color: #fff;
+    background-color:#ffffff;
+    
+
+  
 }
 
 header{
@@ -26,6 +31,49 @@ header{
     width: 100%;
   
 }
+ 
+/*.conteiner{
+width: 100%;
+}*/
+.container {
+    position: relative;
+    width: 42%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 
 .logo{
  display: flex;
@@ -67,8 +115,6 @@ header{
 }
 .cor3{
     display: inline;
-    width: 10%;
-
    align-items: center;
    font-size: 20px;
    font-weight: 100;
@@ -89,7 +135,7 @@ header{
     /*background-color:var(--text-color);*/
     margin-top: 110px;
     margin-bottom: 110px;
-    width: 150%;
+    width: 120px;
 }
 
 .lateral img{
@@ -104,37 +150,78 @@ header{
 #grid-1{
     display: grid;
     grid-template-columns: auto auto;
-    width: 110%;
-    background-color: black;
+    width: 100%;
+    background-color:black;
+
 
 }
 
 .fotos{
-    display: grid;
-    grid-template-columns: auto auto;
+    
    text-align: start;
     margin-top: 110px;
-    margin-left: 50px;
+    margin-left: 85px;
     width: 150%;
 }
 
+
+.conteiner-box{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center ;
+}
 .box{
+   
     background-color: #fff;
     padding: 25px 40px;
     border-radius: 1rem;
     box-shadow: 10px 10px 30px yellow ;
     transition: all ease .55s;
-    width: 20%;
-    margin-left: 110px;
+    width: 25%;
+    margin-left: 50px;
 }
 .box img{
-    display: flex;
     width: 150px;
     margin: 0px 75px;
-    height:auto ;
+    height: ;
+    text-align: center;
 }
 
 .box:hover{
     transform: translateY(-5px) scale(1.1);
     
 }
+
+
+.secao1{
+display: block;
+    text-align: center;
+    font-size: 85px;
+    font-weight: 700;
+    background-color: aqua;
+    width: 100%;
+    padding: 10px;
+} 
+
+.box1{
+    background-color:red;
+    padding: 25px 40px;
+    border-radius: 1rem;
+    transition: all ease .55s;
+    width: 90%;
+    margin: 25px 10px
+    
+    
+    
+}
+.paragrafo{
+    width: 45%;  
+    text-align: justify;
+}  
+ #tamanho{padding: 10px;
+font-weight: 400;
+font-size: 30px;
+}
+     
