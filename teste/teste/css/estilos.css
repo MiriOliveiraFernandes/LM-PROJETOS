@@ -196,7 +196,7 @@ width: 100%;
 
 
 .secao1{
-display: block;
+    display: block;
     text-align: center;
     font-size: 85px;
     font-weight: 700;
@@ -206,22 +206,34 @@ display: block;
 } 
 
 .box1{
+    display: grid;
+    grid-template-columns: 50% 50%;
     background-color:red;
     padding: 25px 40px;
-    border-radius: 1rem;
     transition: all ease .55s;
-    width: 90%;
-    margin: 25px 10px
+    width: 100;
+   margin-bottom: 10px;
     
     
     
 }
+
+.box1 img{
+    width: 30%;
+
+}
 .paragrafo{
-    width: 45%;  
+    width: 100%;  
     text-align: justify;
+  
 }  
- #tamanho{padding: 10px;
-font-weight: 400;
-font-size: 30px;
+.mescla{
+    grid-row: 1 / span 2;
+ 
+}
+ #tamanho{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 40px;
 }
      
